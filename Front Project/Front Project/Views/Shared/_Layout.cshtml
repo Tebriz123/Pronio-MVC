@@ -1,0 +1,162 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exxen</title>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/assets/css/style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <div class="stick-header">
+            <div class="head-container">
+                <div class="head-bar">
+                    <div class="logo-container">
+                        <a href="#"><img class="logo" src="~/assets/img/exxen-logo.png" alt=""></a>
+                    </div>
+                    <div class="nav-container">
+                        <ul>
+                            <li>
+                                <a href="index.html"><i class="fa-regular fa-house"></i>Explore</a>
+
+                            </li>
+
+                            <li>
+                                <a href="#"><i class="fa-solid fa-tv"></i>Live</a>
+
+                            </li>
+                            <li>
+                                <a href="search.html"><i class="fa-solid fa-magnifying-glass"></i>Search</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="button">
+                        <button type="button" class="language-btn">
+                            <i class="fa-solid fa-globe"></i> <span>Tr</span>
+                        </button>
+                        <button type="button" class="login-btn">Log In</button>
+
+                        <button id="burger-btn" type="button" class="burger-toggle">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+
+                        <div id="burger-menu">
+                            <button class="close-menu"><i class="fa-solid fa-xmark"></i></button>
+
+                            <div class="menu-profile">
+                                <i class="fa-solid fa-user"></i>
+                                <button class="login-register">Login / Register</button>
+                            </div>
+
+                            <ul class="menu-links">
+                                <a href="index.html">
+                                <li class="active"><i class="fa-regular fa-house"></i> Explore</li></a>
+                                <li><i class="fa-solid fa-tv"></i> Live</li>
+                                <a href="search.html">
+                                <li><i class="fa-solid fa-magnifying-glass"></i> Search</li></a>
+                                <li><i class="fa-regular fa-circle-question"></i> Help</li>
+                            </ul>
+                        </div>
+
+                        <div class="language-menu">
+                            <p data-lang="En">Engilish</p>
+                            <p data-lang="Tr">Turkish</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <form>
+                        <input type="text" placeholder="Name and Surname">
+                        <input type="email" placeholder="Email">
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+
+
+
+        @RenderBody()
+
+    <footer>
+        <div class="head-container">
+            <div class="foot-bar">
+                <div class="foot-container">
+                    <div class="store">
+                        <div class="playstore">
+                            <a href="#">
+                                <img src="~/assets/img/PlayStore.svg" alt="GET IT ON GooglePlay">
+
+                            </a>
+
+                        </div>
+                        <div class="appstore">
+                            <a href="#">
+                                <img src="~/assets/img/AppStore.svg" alt="Download on the AppStore">
+
+
+                        </div>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Membership Agreement</a></li>
+                            <li><a href="#">Manage Privacy Preferences</a></li>
+                        </ul>
+                        <ul class="ul">
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Corporate Information</a></li>
+                            <li><a href="#">Application Form for Relevant Person</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    <script src="~/assets/js/main.js"></script>
+    <script src="~/assets/js/search.js"></script>
+    <script src="~/assets/js/details.js"></script>
+</body>
+
+</html>

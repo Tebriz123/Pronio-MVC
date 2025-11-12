@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\front project\\front project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|solutionrelative:front project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\front project\\front project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|solutionrelative:front project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\front project\\front project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|solutionrelative:front project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\front project\\front project\\views\\details\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|solutionrelative:front project\\views\\details\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\front project\\front project\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|solutionrelative:front project\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\front project\\front project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|solutionrelative:front project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\front project\\front project\\controllers\\detailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|solutionrelative:front project\\controllers\\detailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\front project\\front project\\views\\search\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|solutionrelative:front project\\views\\search\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|c:\\users\\necef\\onedrive\\\u0130\u015F masas\u0131\\front project\\front project\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9069FD67-D528-4590-877F-BA4B95A16081}|Front Project\\Front Project.csproj|solutionrelative:front project\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Views\\Search\\Search.cshtml",
+              "RelativeDocumentMoniker": "Front Project\\Views\\Search\\Search.cshtml",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Views\\Search\\Search.cshtml",
+              "RelativeToolTip": "Front Project\\Views\\Search\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T19:13:48.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Views\\Details\\Details.cshtml",
+              "RelativeDocumentMoniker": "Front Project\\Views\\Details\\Details.cshtml",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Views\\Details\\Details.cshtml",
+              "RelativeToolTip": "Front Project\\Views\\Details\\Details.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T19:13:36.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "Front Project\\Controllers\\SearchController.cs",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "Front Project\\Controllers\\SearchController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T19:11:24.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Controllers\\DetailsController.cs",
+              "RelativeDocumentMoniker": "Front Project\\Controllers\\DetailsController.cs",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Controllers\\DetailsController.cs",
+              "RelativeToolTip": "Front Project\\Controllers\\DetailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T19:11:09.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Program.cs",
+              "RelativeDocumentMoniker": "Front Project\\Program.cs",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Program.cs",
+              "RelativeToolTip": "Front Project\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T18:57:39.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Front Project\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Front Project\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T18:47:21.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Front Project\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Front Project\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T18:46:54.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Front Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Front Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAKEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T18:46:24.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Front Project\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\necef\\OneDrive\\\u0130\u015F masas\u0131\\Front Project\\Front Project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Front Project\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T18:34:55.095Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
