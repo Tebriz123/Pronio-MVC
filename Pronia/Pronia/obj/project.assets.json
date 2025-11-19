@@ -4012,11 +4012,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\necef\\OneDrive\\İş masası\\Pronia\\Pronia\\Pronia.csproj",
+      "projectUniqueName": "C:\\Users\\necef\\OneDrive\\İş masası\\New folder\\Pronia\\Pronia\\Pronia.csproj",
       "projectName": "Pronia",
-      "projectPath": "C:\\Users\\necef\\OneDrive\\İş masası\\Pronia\\Pronia\\Pronia.csproj",
+      "projectPath": "C:\\Users\\necef\\OneDrive\\İş masası\\New folder\\Pronia\\Pronia\\Pronia.csproj",
       "packagesPath": "C:\\Users\\necef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\necef\\OneDrive\\İş masası\\Pronia\\Pronia\\obj\\",
+      "outputPath": "C:\\Users\\necef\\OneDrive\\İş masası\\New folder\\Pronia\\Pronia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z2aCyXc+YNQ=",
+  "dgSpecHash": "9cKDoDMQodQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\necef\\OneDrive\\İş masası\\Pronia\\Pronia\\Pronia.csproj",
+  "projectFilePath": "C:\\Users\\necef\\OneDrive\\İş masası\\New folder\\Pronia\\Pronia\\Pronia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\necef\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\necef\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

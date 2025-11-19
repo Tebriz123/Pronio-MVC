@@ -158,7 +158,10 @@ wwwroot\assets\images\website-images\3.png
 wwwroot\assets\images\website-images\car.png
 wwwroot\assets\images\website-images\card.png
 wwwroot\assets\images\website-images\dark.png
+wwwroot\assets\images\website-images\Narcisus.jpg
 wwwroot\assets\images\website-images\quotation.png
+wwwroot\assets\images\website-images\red-flower.webp
+wwwroot\assets\images\website-images\Rosa_chinensis.jpg
 wwwroot\assets\images\website-images\service.png
 wwwroot\assets\js\main.js
 wwwroot\assets\js\plugins.min.js
