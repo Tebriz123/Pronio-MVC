@@ -28,8 +28,8 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/necef/OneDrive/İş masası/New folder/Pronia/Pronia/Areas/Admin/Views/Categroy/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdyb3lcSW5kZXguY3NodG1s
+[C:/Users/necef/OneDrive/İş masası/New folder/Pronia/Pronia/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/necef/OneDrive/İş masası/New folder/Pronia/Pronia/Areas/Admin/Views/Home/Index.cshtml]
@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/necef/OneDrive/İş masası/New folder/Pronia/Pronia/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/necef/OneDrive/İş masası/New folder/Pronia/Pronia/Areas/Admin/Views/Slide/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/necef/OneDrive/İş masası/New folder/Pronia/Pronia/Areas/Admin/Views/Slide/Index.cshtml]
