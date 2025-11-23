@@ -44,5 +44,21 @@ namespace Pronia.Areas.Admin.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
+
+        public async Task<IActionResult> Update(int? id)
+        {
+            if(id is null || id < 1)
+            {
+                return BadRequest();
+            }
+            Slider existed = await _context.Sliders.FirstOrDefaultAsync(s=>s.Id == id);
+            if(existed is null)
+            {
+                return NotFound();
+            }
+
+            return View(existed);
+        }
     }
 }
