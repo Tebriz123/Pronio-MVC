@@ -21,5 +21,6 @@ namespace Pronia.Areas.Admin.Controllers
             List<Category> categories = await _context.Categories.ToListAsync();
             return View(categories);
         }
+
     }
 }
