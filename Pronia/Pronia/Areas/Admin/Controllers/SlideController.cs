@@ -26,8 +26,18 @@ namespace Pronia.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            List<Slider> sliders = await _context.Sliders.ToListAsync();
-            return View(sliders);
+            List<GetSlideVM> slideVMs = await _context.Sliders
+                .AsNoTracking()
+                .Select(s => new GetSlideVM
+                {
+                    Id = s.Id,
+                    Title = s.Title,
+                    Image= s.Image,
+                    Order = s.Order
+                })
+                .ToListAsync();
+
+            return View(slideVMs);
         }
         public IActionResult Create()
         {
@@ -70,7 +80,7 @@ namespace Pronia.Areas.Admin.Controllers
                 Description = sliderVM.Description,
                 Image = fileName,
                 CreatedAt = DateTime.Now
-            }
+            };
 
 
 
@@ -122,12 +132,12 @@ namespace Pronia.Areas.Admin.Controllers
                     ModelState.AddModelError(nameof(UpdateSlideVM.Photo), "File type is incorrect");
                     return View(slideVM);
                 }
-                if (!slideVM.Photo.ValidateSize(Utilites.Enums.FileSize.MB,2))
+                if (!slideVM.Photo.ValidateSize(Utilites.Enums.FileSize.MB, 2))
                 {
                     ModelState.AddModelError(nameof(UpdateSlideVM.Photo), "File size is incorrect");
                     return View(slideVM);
                 }
-               
+
             }
             bool result = await _context.Sliders.AnyAsync(s => s.Order == slideVM.Order && s.Id != id);
             if (result)
@@ -142,7 +152,7 @@ namespace Pronia.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            if(slideVM.Photo is not null)
+            if (slideVM.Photo is not null)
             {
                 string fileName = await slideVM.Photo.CreateFileAsync(_env.WebRootPath, "assets", "images", "website-images");
                 existed.Image.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
@@ -159,6 +169,25 @@ namespace Pronia.Areas.Admin.Controllers
 
 
             return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id is null || id < 1)
+            {
+                return BadRequest();
+            }
+            Slider existed = await _context.Sliders.FirstOrDefaultAsync(s => s.Id == id);
+            if (existed is null)
+            {
+                return NotFound();
+            }
+            existed.Image.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
+            _context.Remove(existed);
+            //existed.IsDeleted = true;
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+
         }
     }
 }
