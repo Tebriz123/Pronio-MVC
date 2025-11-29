@@ -73,7 +73,7 @@ namespace Pronia.Areas.Admin.Controllers
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-        }
+        }  
         public async Task<IActionResult> Update(int? id)
         {
             if(id is null || id < 1)
@@ -127,7 +127,7 @@ namespace Pronia.Areas.Admin.Controllers
             existed.CategoryId = productVM.CategoryId.Value;
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Index)); 
 
         }
 
