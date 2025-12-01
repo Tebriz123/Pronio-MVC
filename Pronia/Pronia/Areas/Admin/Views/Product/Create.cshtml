@@ -34,6 +34,17 @@
                         </select>
                         <span asp-validation-for="CategoryId" class="text-danger"></span>
                     </div>
+                    <div class="form-group">
+                        <label asp-for="TagIds">Tag</label>
+                        <select asp-for="TagIds" class="form-control">
+                            
+                            @foreach (Tag tag in Model.Tags)
+                            {
+                                <option value="@tag.Id">@tag.Name</option>
+                            }
+                        </select>
+                        <span asp-validation-for="TagIds" class="text-danger"></span>
+                    </div>
                                     
                     <div class="form-group">
                         <label asp-for="Description">Description</label>
