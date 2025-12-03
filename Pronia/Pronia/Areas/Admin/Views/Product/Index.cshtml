@@ -11,6 +11,7 @@
               
                 <div class="table-responsive">
                     <table class="table table-striped">
+                        @Html.Raw(TempData["ImageWarning"])
                         <a class="btn btn-success" asp-action="Create">Create Product</a>
                         <thead>
                             <tr>

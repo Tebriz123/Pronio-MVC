@@ -33,7 +33,7 @@ namespace Backend_MVC_TASK_1.Controllers
                 Products =await _context
                 .Products
                 .OrderBy(p => p.CreatedAt)
-                .Take(8)
+                .Take(20)
                 .Include(p => p.ProductImages.Where(pi => pi.IsPrimary != null))
                 .ToListAsync()
 

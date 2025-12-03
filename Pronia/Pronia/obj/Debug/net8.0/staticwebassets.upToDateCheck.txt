@@ -293,3 +293,21 @@ wwwroot\admin\vendors\mdi\fonts\materialdesignicons-webfont.eot
 wwwroot\admin\vendors\mdi\fonts\materialdesignicons-webfont.ttf
 wwwroot\admin\vendors\mdi\fonts\materialdesignicons-webfont.woff
 wwwroot\admin\vendors\mdi\fonts\materialdesignicons-webfont.woff2
+wwwroot\assets\images\website-images\46a8cad9-474c-4ed3-ad19-268065de9973.png
+wwwroot\assets\images\website-images\7bb37f8d-7657-44e2-a922-b1e2c7a3ce3e.jpg
+wwwroot\assets\images\website-images\357d4bff-3aac-430e-aeaa-a98ded8267dc.jpg
+wwwroot\assets\images\website-images\e583a744-293b-41ac-966f-990e7af9f9b0.webp
+wwwroot\assets\images\website-images\568c0d14-3450-4383-aade-e2f70107816f.webp
+wwwroot\assets\images\website-images\8422886b-cc79-4b0b-8e33-cc3ce13f6faf.jpg
+wwwroot\assets\images\website-images\99e0410e-275c-4387-951f-a50a4534682f.jpg
+wwwroot\assets\images\website-images\91d09cb1-c0a1-48f7-9f6e-691f9a2ae7cb.webp
+wwwroot\assets\images\website-images\1 - Köçür.png
+wwwroot\assets\images\website-images\260b5747-b63e-47d2-bfb9-8163ff4e069a.pptx
+wwwroot\assets\images\website-images\532e776d-68d6-41cd-9344-0f04b9bbb6e5.webp
+wwwroot\assets\images\website-images\e65106e5-ee5b-4216-ae53-8781a4aa7941.jpg
+wwwroot\assets\images\website-images\01b84ad2-e41c-4f11-b7e0-e437950d2916.jpg
+wwwroot\assets\images\website-images\1c4ca5cf-c6e7-4abb-9a2d-287cf576c86e.pptx
+wwwroot\assets\images\website-images\b45f48e3-b246-4ce3-bd61-8243d74cafd3.jpg
+wwwroot\assets\images\website-images\41d12c02-bc7f-4c45-8b2b-eeded7c0c38a.webp
+wwwroot\assets\images\website-images\c311924b-13e0-4f2e-be5a-ae9d66d30581.pptx
+wwwroot\assets\images\website-images\e555a2b0-66d7-4b88-ae93-e9667b1edf7c.jpg
