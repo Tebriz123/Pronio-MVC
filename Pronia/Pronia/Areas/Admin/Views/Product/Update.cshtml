@@ -34,7 +34,7 @@
                         {
                             <div style="position:relative">
                                 <img style="width:150px;height:150px;" src="~/assets/images/website-images/@pImage.Image" />
-                                <button type="button" style="position:absolute;top:5px;right:5px;" class="btn btn-danger">x</button>
+                                <button type="button" style="position:absolute;top:5px;right:5px;" class="btn btn-danger cus-delete">x</button>
                                 <input asp-for="ImageIds" type="hidden" value="@pImage.Id">
                             </div>
                         }
@@ -96,3 +96,18 @@
         </div>
     </div>
 </div>
+
+@section DeleteButtons{
+    <script>
+        var btns=document.querySelectorAll(".cus-delete");
+        for(let i=0; i<btns.length; i++) {
+            btns[i].addEventListener("click",function(){
+                btns[i].parentElement.remove()
+            })
+        }
+
+
+    </script>
+
+}
+

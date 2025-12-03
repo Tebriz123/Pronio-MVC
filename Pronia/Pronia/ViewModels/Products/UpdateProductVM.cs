@@ -19,7 +19,7 @@ namespace Pronia.ViewModels
         public int? CategoryId { get; set; }
         public List<Category>? Categories { get; set; }
         public List<int>? TagIds { get; set; }
-        public List<int> ImageIds { get; set; }
+        public List<int>? ImageIds { get; set; }
         public List<Tag>? Tags { get; set; }
         public List<ProductImage>? ProductImages { get; set; }
     }

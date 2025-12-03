@@ -149,18 +149,18 @@ namespace Pronia.Areas.Admin.Controllers
             foreach (IFormFile file in productVM.AdditionalPhotos)
             {
              
-                if (file.ValidateType("image/"))
+                if (!file.ValidateType("image/"))
                 {
                     
                     message += $"<p class=\"text-warning\">{file.Name} file type is inccorect</p>";
                     continue;
                 }
-                if (file.ValidateSize(FileSize.MB, 1))
+                if (!file.ValidateSize(FileSize.MB, 1))
                 {
                     message += $"<p class=\"text-warning\">{file.Name} file size is inccorect</p>";
                     continue;
                 }
-                TempData["ImageWarning"] = message;
+                
 
                 product.ProductImages.Add(new()
                 {
@@ -169,8 +169,9 @@ namespace Pronia.Areas.Admin.Controllers
                     CreatedAt = DateTime.Now
 
                 });
-
             }
+
+                TempData["ImageWarning"] = message;
            
 
 
@@ -326,7 +327,19 @@ namespace Pronia.Areas.Admin.Controllers
 
                 });
             }
+            if(productVM.ImageIds is null)
+            {
+                productVM.ImageIds = new();
+            }
+           List<ProductImage> deleteImages = existed.ProductImages
+                .Where(pi => !productVM.ImageIds
+                    .Exists(imgId => pi.Id == imgId) && pi.IsPrimary==null)
+                .ToList();
 
+            deleteImages
+                .ForEach(di => di.Image
+                    .DeleteFile(_env.WebRootPath, "assets", "images", "website-images"));
+            _context.ProductImages.RemoveRange(deleteImages);
 
             //_context.ProductTags.RemoveRange(existed.ProductTags
             //    .Where(pt => !productVM.TagIds
@@ -351,6 +364,40 @@ namespace Pronia.Areas.Admin.Controllers
                     TagId = tId
                 });
             });
+            if(productVM.AdditionalPhotos is not null)
+            {
+            string message = string.Empty;
+
+            foreach (IFormFile file in productVM.AdditionalPhotos)
+            {
+
+                if (!file.ValidateType("image/"))
+                {
+
+                    message += $"<p class=\"text-warning\">{file.Name} file type is inccorect</p>";
+                    continue;
+                }
+                if (!file.ValidateSize(FileSize.MB, 1))
+                {
+                    message += $"<p class=\"text-warning\">{file.Name} file size is inccorect</p>";
+                    continue;
+                }
+
+
+                existed.ProductImages.Add(new ProductImage()
+                {
+                    Image = await file.CreateFileAsync(_env.WebRootPath, "assets", "images", "website-images"),
+                    IsPrimary = null,
+                    CreatedAt = DateTime.Now
+
+                });
+            }
+
+            TempData["ImageWarning"] = message;
+
+            }
+
+
 
 
             existed.Name = productVM.Name;
@@ -363,6 +410,31 @@ namespace Pronia.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
 
         }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if(id is null || id < 1)
+            {
+                return BadRequest();
+            }
+            Product? product = await _context.Products
+                .Include(p=>p.ProductImages)
+                .FirstOrDefaultAsync(p => p.Id == id);
+            if(product is null)
+            {
+                return NotFound();
+            }
+            product.ProductImages
+                .ForEach(pi => pi.Image
+                    .DeleteFile(_env.WebRootPath, "assets", "images", "website-images"));
+
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+
+
 
     }
 }
